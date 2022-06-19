@@ -2,9 +2,9 @@ clear all
 close all
 clc
 %% Physical parameters of the three tanks
-S1 = 1.3e-3;                            % Cross-sectional area of tank 1(m²)
-S2 = S1;                                % Cross-sectional area of tank 2(m²)
-S3 = S2;                                % Cross-sectional area of tank 3(m²)
+S1 = 1.3e-3;                            % Cross-sectional area of tank 1(mÂ²)
+S2 = S1;                                % Cross-sectional area of tank 2(mÂ²)
+S3 = S2;                                % Cross-sectional area of tank 3(mÂ²)
 d1 = 7.2e-3;                            % Diameter of the first tank's orifice(mm)
 d2 = 5.4e-3;                            % Diameter of the second tank's orifice(mm)
 ds2 = 3.5e-3;                           % Diameter of the output orifice of the second tank(mm)
@@ -13,10 +13,10 @@ alphd = 0.72;                           % Flow coefficient
 qee = 2.78e-5;                          % Equilibrium flow (L/h)
 qem = 1.4*2.78e-5;                      % Maximum realizable flow
 g = 10;                                 % Gravity acceleration
-phi1 = 4.2135e-05;                      % Orifice cross sectional area(mm²)
-phi2 = 2.3487e-5;                       % Orifice cross sectional area(mm²)
-phis2 = 9.9085e-6;                      % Orifice cross sectional area(mm²)
-phis3 = 1.0252e-5;                      % Orifice cross sectional area(mm²)
+phi1 = 4.2135e-05;                      % Orifice cross-sectional area(mmÂ²)
+phi2 = 2.3487e-5;                       % Orifice cross-sectional area(mmÂ²)
+phis2 = 9.9085e-6;                      % Orifice cross-sectional area(mmÂ²)
+phis3 = 1.0252e-5;                      % Orifice cross-sectional area(mmÂ²)
 
 a12 = alphd*phi1*sqrt(2*g);
 as2 = alphd*phis2*sqrt(2*g);
