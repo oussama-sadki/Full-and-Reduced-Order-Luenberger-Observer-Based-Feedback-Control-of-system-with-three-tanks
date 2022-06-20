@@ -1,4 +1,4 @@
-# Full-and-Reduced-Order-Luenberger-Observer-Based-Feedback-Control-With_Integral-Action-Under-Constant-Disturbance-of-System-With-Three-Tanks
+# Full-and-Reduced-Order-Luenberger-Observer-Based-Feedback-Control-With_Integral-Action-Under-Constant-Disturbance
 This post presents implementation of Full and Reduced Order Linear Observer using state-feedback controller with integral action.
 Our system is composed of three communicating tanks fed by a liquid through a valve. The first step each designer starts with is mathematical modeling.Working out some math and using physical laws, we derived three nonlinear
 differential equations,then we linearized them at a prechosen equilibrium points.The numerical parameters of the dynamical matrix(state matrix) were directly given.
